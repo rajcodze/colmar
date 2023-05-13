@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .Menu{
+    display: inline-flex;
+    text-align: right;
+    
+}
+.col {
+    color: black
+    font-family: ;
+}
+.ac {
+    color: burlywood;
+} */
+
+
+/* .header-right li {
+    display: inline-block;
+    justify-content: right;
+}
+.header-right nav {
+    display: inline-block;
+    justify-content: right;
+}
+.header-right {
+    display: inline;
+    height: 64px;
+    font-size: 16px;
+    border-left: 24px;
+    text-align: right;
+    justify-content: right;} */
+.header {
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    height: 64px;
+    padding-left: 40px;
+    padding-top: 10px;
+    text-align: center;
+    background-image: url('../images/ic-logo.svg' );
+    background-repeat: no-repeat;
+    background-size: 32px;
+    
+    background-size: 32px;
+    background-position: 24px left;
+}
+.header span {
+    color:burlywood
+}
+/* nav {
+    ;
+} */
+
+.rt_header {
+    position: absolute;
+    right: 10px;
+    
+}
+.banner {
+    display: flex;
+background-color: hsla(0, 0%, 0%, 0.205);
+
+padding: 32px 24px;
+margin:0px;
+
+}
+.banner  img {
+    width:60%;
+
+
+}
+.aside {
+    display: inline-block;
+    position: relative;
+    margin-left: 1.5rem;
+margin-right: 10rem;
+margin-top:auto;
+margin-bottom: auto;
+line-height: 1.5;
+
+
+
+}
+.aside h1 {
+    font-size: 1.5rem;
+    color:rgba(0, 0, 0, 0.589);
+    
+    
+    
+    
+}
+.aside h3 {
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.589);
+    margin-top: 24px;
+    
+    
+}
+button {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.568);
+
+
+
+
+
+}
+button .btn {
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    margin: 8px auto;
+    
+}
+.practicing {
+    
+    
+}
+.practicing img {
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 24px;
+}
+.container .practicing {
+    display: block;
+    width: 100%;
+    }
+
+.sidebar {
+    display:block;
+}
+.sidebar .card {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 24px;   
+    margin-left: 16px;
+}
+.sidebar img {
+    width: 100%;
+
+}
+.card .cardtext {
+    margin:auto;
+}
+.learning{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: auto;
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding:16px 72px 64px 72px;
+    
+}
+
+.hdlearning > h3 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.274);
+    margin-bottom: 0;
+}
+
+    
+    
+
+
+
+.learning .courses img{
+    height:auto;
+    width: 100%;
+    
+
+}
+
+
+.courses > h3,p{
+    margin:auto;
+    text-justify: auto;
+    line-height: 2;
+    
+    
+    
+}
+.courses {
+    background-color: aliceblue;
+    margin:16px;
+
+}
