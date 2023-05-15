@@ -184,20 +184,72 @@ button .btn {
     height:auto;
     width: 100%;
     
-
 }
 
 
-.courses > h3,p{
+.courses > h3, .courses > p{
     margin:auto;
     text-justify: auto;
     line-height: 2;
-    
-    
-    
+           
 }
 .courses {
     background-color: aliceblue;
     margin:16px;
+
+}
+.The_text {
+    line-height: 2;
+    text-align: left;
+    text-justify: center;
+    margin: auto 16px;
+}
+  
+
+
+
+
+.thesis  {
+    
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+   
+    
+    }
+.thecont {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.thecont .clist {
+    display: block;
+}
+.The {
+    display: inline-flex;
+}
+
+.Reimagine {
+    width:60%;
+    margin-top: 24px;
+    
+    
+}
+.Reimagine > h3 {
+    margin-bottom: 8px;
+}
+footer {
+    display: block;
+
+    margin-top: 32px;
+    padding-top: 16px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+
+}
+footer .rfooter {
+    position: relative; 
+    float: right;
+    margin-right: 16px;
 
 }
