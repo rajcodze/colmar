@@ -253,3 +253,20 @@ footer .rfooter {
     margin-right: 16px;
 
 }
+@media  only screen and (max-width:800px)
+ {
+.header {
+    display: none;
+}
+    
+.banner {
+    display: block;
+}
+.practicing > img , h3  {
+    display: none;
+        
+}
+.aside > p {
+    display: block;
+}
+}
